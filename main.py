@@ -96,7 +96,7 @@ def analyze_description(description: str) -> AnalysisResult:
 
 def main():
     # Beispiel-Inspektionsbeschreibung (kann frei geändert werden)
-    inspection_text = input("Enter inspection text: ")
+    inspection_text = "Test inspection text"
     result = analyze_description(inspection_text)
 
     print("\n=== Inspection Analysis ===")
